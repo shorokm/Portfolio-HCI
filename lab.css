@@ -1,0 +1,136 @@
+
+body {
+	display: grid;
+	grid-template-rows: 1fr 100px 1fr;
+	color: white;
+	font-family: verdana;
+	font-size: 17px;
+}
+
+img {
+	padding-top: 20px;
+	padding-left: 8px;
+}
+
+/*begin van de code voor de navigatie menu*/
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 60px;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 47px; 
+	background-color: transparent;
+	display: flex;
+	margin-left: -85px;
+	margin-top: -53px;
+	grid-row: 1/2;
+}
+
+#home {
+	width: 124px;
+}
+
+#exertion {
+	width: 135px;
+}
+
+#virtual {
+	width: 110px;
+}
+
+#wearables {
+	width: 163px;
+}
+
+#creature {
+	width: 183px;
+}
+
+#workshop1 {
+	width: 165px;
+}
+
+#workshop2 {
+	width: 128px;
+}
+
+#workshop3 {
+	width: 107px;
+}
+
+#excursion {
+	width: 112px;
+}
+
+/*Einde vand de code voor de navigatie menu*/
+
+h1 {
+	text-align: center;
+	grid-row: 2/3;
+	font-size: 43px;
+	margin-top: 150px;
+}
+
+h3 {
+	font-family: verdana;
+	font-size: 25px;
+	grid-row: 2/3;
+}
+
+#achtergrond {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	margin-top: -30px;
+	margin-left: -16px;
+}
+
+section {
+	height: 8100px;
+	grid-row: 3/4;
+	background-color: rgba(0,0,0,0.7);
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -8px;
+	margin-top: -3725px;
+}
+
+figcaption {
+	font-size: 11px;
+}
+
+#proces, #product, #reflectie { /*titels*/
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 1350px;
+}
+
+#foto1, #foto2, #foto3, #foto4, #foto5, #foto6, #foto7, #foto8, #foto9, #foto10, #foto11, #foto12, #foto13, #foto14, #foto15, #foto16, #foto17, #foto18, #foto19, #foto20{ /* plaatsing van alle foto's die gemaakt zijn tijden de lab dagen*/
+	width: 350px;
+	margin-left: -7px;
+}
+
+video {
+	width: 250px;
+}
+
+#pictaken { /* zinnetje die vertelt wie de foto's gemaakt heeft*/
+	font-size: 14px;
+	font-style: italic;
+}
+
+
+
