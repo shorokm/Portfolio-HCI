@@ -1,0 +1,225 @@
+
+body {
+	display: grid;
+	grid-template-rows: 1fr 100px 1fr;
+	color: white;
+	font-family: verdana;
+	font-size: 17px;
+}
+
+img {
+	padding-top: 20px;
+	padding-left: 8px;
+}
+
+/* Begin naviagtie menu code */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 60px;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 47px; 
+	background-color: transparent;
+	display: flex;
+	margin-left: -85px;
+	margin-top: -53px;
+	grid-row: 1/2;
+}
+
+#home {
+	width: 124px;
+}
+
+#exertion {
+	width: 135px;
+}
+
+#virtual {
+	width: 110px;
+}
+
+#wearables {
+	width: 163px;
+}
+
+#creature {
+	width: 183px;
+}
+
+#workshop1 {
+	width: 165px;
+}
+
+#workshop2 {
+	width: 128px;
+}
+
+#workshop3 {
+	width: 107px;
+}
+
+#excursion {
+	width: 112px;
+}
+
+/* Einde code voor navigatiemenu */
+
+h1 {
+	text-align: center;
+	grid-row: 2/3;
+	font-size: 43px;
+	margin-top: 150px;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 33px;
+	text-align: center;
+	grid-row: 2/3;
+}
+
+#achtergrond {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	margin-top: -30px;
+	margin-left: -16px;
+}
+
+section { 
+	grid-row: 3/4;
+	height: 2250px;
+	background-color: rgba(0,0,0,0.7);
+	margin-left: -90px;
+	margin-right: -8px;
+	margin-bottom: -8px;
+	margin-top: -800px;
+}
+
+#uitleg {
+	margin-left: 120px;
+	width: 1350px;
+	margin-top: 50px;
+}
+
+/* Begin code voor assignment 1 */
+#opdracht1 {
+	margin-left: 120px;
+	margin-top: 30px;
+}
+
+#opdracht1 > p {
+	width: 650px;
+} 
+
+#face {
+	width: 600px;
+	margin-left: -7px;
+	margin-top: -10px;
+}
+
+/* Einde code voor assignment 1*/
+
+/* Begin code voor assignment  2*/
+
+#opdracht2 {
+	margin-left: 790px;
+	margin-top: -753px;
+}
+
+#opdracht2 > p {
+	width: 650px;
+}
+
+#vormen {
+	width: 680px;
+	margin-left: -7px;
+	margin-top: -8px;
+}
+
+/* Einde code voor assignment 2*/
+
+/*Begin code voor assigment 3*/
+
+#opdracht3 {
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+#opdracht3 > p {
+	width: 650px;
+}
+
+#interactief {
+	width: 600px;
+	margin-left: -7px;
+}
+
+/* Einde code voor assignment 3*/
+
+/* Begin code voor assignment cv1*/
+
+#opdrachtcv1 {
+	margin-left: 790px;
+	margin-top: -688px;
+}
+
+#opdrachtcv1 > p {
+	width: 650px;
+}
+
+#cam {
+	width: 625px;
+	margin-left: -7px;
+}
+
+/* Einde code voor assignment cv1*/
+
+/* Begin code voor assignment cv2*/
+
+#opdrachtcv2 {
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+#opdrachtcv2 > p {
+	width: 645px;
+}
+
+#anoniem {
+	width: 620px;
+	margin-left: -7px;
+} 
+
+/* Einde code voor assignment cv2*/
+
+/* Begin code voor assignment cv3*/
+
+#opdrachtcv3 {
+	margin-left: 790px;
+	margin-top: -560px;
+}
+
+#opdrachtcv3 > p {
+	width: 650px;
+}
+
+#eyes {
+	width: 570px;
+	margin-left: -7px;
+}
+
+/* Einde code voor assignment cv3*/
