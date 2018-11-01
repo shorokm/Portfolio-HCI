@@ -1,0 +1,131 @@
+
+body {
+	display: grid;
+	grid-template-rows: 1fr 100px 1fr;
+	color: white;
+	font-family: verdana;
+	font-size: 17px;
+}
+
+img {
+	padding-top: 20px;
+	padding-left: 8px;
+}
+
+/*begin van de code voor de navigatie menu*/
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 60px;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 47px; 
+	background-color: transparent;
+	display: flex;
+	margin-left: -85px;
+	margin-top: -53px;
+	grid-row: 1/2;
+}
+
+#home {
+	width: 124px;
+}
+
+#exertion {
+	width: 135px;
+}
+
+#virtual {
+	width: 110px;
+}
+
+#wearables {
+	width: 163px;
+}
+
+#creature {
+	width: 183px;
+}
+
+#workshop1 {
+	width: 165px;
+}
+
+#workshop2 {
+	width: 128px;
+}
+
+#workshop3 {
+	width: 107px;
+}
+
+#excursion {
+	width: 112px;
+}
+
+/*Einde vand de code voor de navigatie menu*/
+
+h1 {
+	text-align: center;
+	grid-row: 2/3;
+	font-size: 43px;
+	margin-top: 150px;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 33px;
+	text-align: center;
+	grid-row: 2/3;
+}
+
+#achtergrond {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	margin-top: -30px;
+	margin-left: -16px;
+}
+
+section {
+	height: 2000px;
+	grid-row: 2/4;
+	background-color: rgba(0,0,0,0.7);
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -8px;
+	margin-top: -575px;
+}
+
+#door , #research, #reflectie { /*Titels*/
+	margin: 50px;
+}
+
+#model { /*afbeelding van de homeostasis model*/
+	width: 400px;
+	margin-left: -7px;
+}
+
+#bron {
+	text-decoration: underline;
+}
+
+#manta { /*de gif*/
+	width: 450px;
+	margin-left: -7px;
+}
+
+
+

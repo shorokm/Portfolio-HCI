@@ -1,0 +1,362 @@
+body {
+	display: grid;
+	grid-template-rows: 1fr 100px 1fr;
+	color: white;
+	font-family: verdana;
+	font-size: 17px;
+}
+
+img {
+	padding-top: 20px;
+	padding-left: 8px;
+}
+
+/*Begin van de code voor de navigatie menu*/
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 60px;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 47px; 
+	background-color: transparent;
+	display: flex;
+	margin-left: -85px;
+	margin-top: -53px;
+	grid-row: 1/2;
+}
+
+#home {
+	width: 124px;
+}
+
+#exertion {
+	width: 135px;
+}
+
+#virtual {
+	width: 110px;
+}
+
+#wearables {
+	width: 163px;
+}
+
+#creature {
+	width: 183px;
+}
+
+#workshop1 {
+	width: 165px;
+}
+
+#workshop2 {
+	width: 128px;
+}
+
+#workshop3 {
+	width: 107px;
+}
+
+#excursion {
+	width: 112px;
+}
+
+/*Einde van de code voor de navigatie menu*/
+
+
+h1 {
+	text-align: center;
+	grid-row: 2/3;
+	font-size: 43px;
+	margin-top: 150px;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 33px;
+	text-align: center;
+	grid-row: 2/3;
+}
+
+#achtergrond {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	margin-top: -30px;
+	margin-left: -16px;
+	display: block;
+}
+
+section {
+	height: 10200px;
+	grid-row: 3/4;
+	background-color: rgba(0,0,0,0.7);
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -8px;
+	margin-top: -4775px;
+}
+
+#uitleg {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+p {
+	width: 1390px;
+}
+
+/* Begin code screenshot en video van opdracht 3C*/
+
+#opdracht3c {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code1 {
+	width: 550px;
+	grid-row: 1/2;
+	margin-left: -7px;
+}
+
+#video1 {
+	width: 250px;
+	grid-row: 1/2;
+	z-index: 3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 3C*/
+
+
+/* Begin code voor screenshot en video van opdracht 4C*/
+
+#opdracht4c {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code2 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video2 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 4C*/
+
+/* Begin code voor screenshot en video van opdracht 6C*/
+
+#opdracht6c {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code3 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video3 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 6C*/
+
+
+/* Begin code voor screenshot en video van opdracht 6C*/
+
+#opdracht7 {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code4 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video4 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 6C*/
+
+/* Begin code voor screenshot en video van opdracht 8B*/
+
+#opdracht8b {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code5 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video5 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 8B*/
+
+/* Begin code voor screenshot en video van opdracht 9F*/
+
+#opdracht9f {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code6 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video6 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 9F*/
+
+/* Begin code voor screenshot en video van opdracht 10B*/
+
+#opdracht10b {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code7 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video7 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 10B*/
+
+/* Begin code voor screenshot en video van opdracht 11B*/
+
+#opdracht11b {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code8 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video8 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 11B*/
+
+/* Begin code voor screenshot en video van opdracht 12B*/
+
+#opdracht12b {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code9 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+}
+
+#video9 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 30px;
+}
+
+/* Einde code voor screenshot en video voor opdracht 12B*/
+
+/* Begin code voor screenshot en video van opdracht 12B*/
+
+#opdracht13e {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#code10, #code11, #code12, #code13, #code14, #code15 {
+	width: 550px;
+	grid-row: 2/3;
+	margin-left: -7px;
+	margin-top: -24px;
+}
+
+#code10{
+	margin-bottom: -120px;
+}
+
+#code11 {
+	margin-left: -853px;
+}
+
+#video10 {
+	width: 250px;
+	z-index: 3;
+	grid-row: 2/3;
+	margin-left: 590px;
+}
+
+#opdracht13e > p {
+	margin-left: 590px;
+	margin-top: -1370px;
+	width: 810px;
+}
+
+
+/* Einde code voor screenshot en video voor opdracht 12B*/
+
+
+
+

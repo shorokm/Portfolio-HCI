@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8"> 
+		<title> Arduino </title>
+		<link rel="stylesheet" type="text/css" href="workshop3.css">
+    	<script src="workshop3.js"></script>
+	</head>
+	<body>
+		<img id="achtergrond" src="index4.jpg" alt="de achtergrond plaatje"/>
+		<header>
+			<div id=menu>
+				<ul> 
+					<a href="index.html" id="home"><li> Home </li></a>
+					<a href= "exertion.html" id="exertion"><li>Exertion games </li></a>
+					<a href= "arvr.html" id="virtual"> <li>AR&ampVR </li></a>
+					<a href= "wearables.html" id="wearables"> <li>Wearables </li></a>
+					<a href= "creatures.html" id="creature"><li> Artificial creatures </li></a>
+					<a href= "workshop1.html" id="workshop1"><li> Computer Vision </li></a>
+					<a href= "workshop2.html" id="workshop2"><li> Unity mapping </li></a>
+					<a href= "workshop3.html" id="workshop3"><li> Arduino </li></a>
+					<a href= "excursion.html" id="excursion"><li> Excursion </li></a>
+					<a href= "lab.html" id="lab"><li> Labweeks </li></a>
+				</ul>
+			</div>
+			<h1> Arduino </h1> 
+		</header>
+		<section>
+			<p id="uitleg"> Deze workshop ging over de arduino. Arduino is een open-source elektronica-platform voor het bouwen van prototypen. Het is gebaseerd op flexibele, eenvoudig te gebruiken hardware en software. Arduino-projecten kunnen stand-alone worden uitgevoerd (zonder een computer), maar kunnen ook communiceren met software die op een computer draait (bijv. Processing, MaxMSP). In deze workshop werd er met zo een arduino gewerkt. De volgende opdrachten geven een kijkje in wat er allemaal met een arduino gedaan kan worden. </p>
+			<div id="opdracht3c">
+				<h3> Opdracht 3C </h3> 
+				<img id="code1" src="opdracht3c.png" alt="code van opdracht 3c"/>
+				<video id="video1" src="opdracht3c.mov" controls></video>
+				<p> Voor deze opdracht moet er met twee LED lampjes gewerkt worden. De bedoeling was om de code zo aan te passen dat het groene LED lampje twee keer sneller zou blinken dan het gele lampje. Dit was niet zo moeilijk. Ik ben als eerst gaan kijken welke code er precies aangepast moet worden door als eerst een aantal getallen te veranderen en te kijken wat er dan zou gebeuren. Na dit gedaan te hebben merkte ik op dat door de analogWrite van elk lampje aan te passen, het lampje met een laag getal minder snel knippert dan de ander. Ook heb ik de delay aangepast zodat het verschil in snelheid duidelijker te zien is. </p>
+			</div>
+			<div id="opdracht4c"> 
+				<h3> Opdracht 4C </h3>
+				<img id="code2" src="opdracht4c.png" alt="code van opdracht 4c"/>
+				<video id="video2" src="opdracht4c.mov" controls></video>
+				<p> Bij opdracht vier moesten de LED lampjes niet meer blinken maar faden. Voor opdracht 4C was de opdracht om ervoor te zorgen dat wanneer de ene lampje dicht gaat de andere lampje juist open gaat. Opdracht 4A en B gingen bij mij heel makkelijk omdat de stappen ook duidelijk waren aangegeven, maar toen ik eenmaal bij C aankwam wist ik niet hoe ik het moest omkeren. Ik ben daarom hulp gaan vragen en het bleek dus dat het omgedraait moest worden. In plaats van aan, moest het juist uit. Dit kon heel makkelijk gedaan worden door voor de variabele ‘brightness’ 255- te zetten. Dat houdt dus in dat het begint bij 255 (het staat dus aan) en dat het getal dan steeds lager wordt. Na dit gehoord te hebben leek het allemaal heel logisch, maar zelf was ik er niet opgekomen. </p>
+			</div>
+			<div id="opdracht6c">
+				<h3> Opdracht 6C </h3> 
+				<img id="code3" src="opdracht6c.png" alt="code van opdracht 6c"/>
+				<video id="video3" src="opdracht6c.mov" controls></video>
+				<p> Bij deze opdracht werd er gebruik gemaakt van een potentiometer. Net als opdracht vier was het hier de bedoeling dat de lichten gingen faden, alleen werd het bij deze opdracht wel gedaan met behulp van de potentiometer. Je moest er dan voor zorgen dat bij het draaien van de schroef een van de LED lampjes aangaat en de andere tegelijkertijd uitgaat. Dit ging dit keer veel makkelijker dan bij opdracht 4. Doordat het zo erg op opdracht vier leek wist ik hoe ik het moest aanpakken en heb ik om een van de lampjes dicht te laten faden bij variabele sensorValue 255 ervan afgetrokken. Bij het draaien van de schroef gaat dan ook een van de LED lampjes aan en tegelijkertijd gaat de andere LED lampje uit.</p>
+			</div>
+			<div id="opdracht7">
+				<h3> Opdracht 7 </h3> 
+				<img id="code4" src="opdracht7.png" alt="code van opdracht 7"/>
+				<video id="video4" src="opdracht7.mov" controls></video>
+				<p> Bij deze opdracht werd er gebruik gemaakt van een ander sensor dan de potentiometer, namelijk de LDR (Light Dependent Resistor). Dit is een gevoelige weerstand die de hoeveelheid licht die erop schijnt meet. Deze sensor zal hier gebruikt worden om de led lampjes te dimmen. De opdracht bestond uit vijf stappen. Bij de eerste drie werd er niet veel gevraagd dus kon het makkelijk gevolgd worden en kon de code zo aan aangepast worden, zodat de LDR sensor verbonden werd en zou werken. Toen ik eenmaal bij stap 4 kwam werd het wat moeilijker. Ik snapte eerst niet helemaal wat de bedoeling was, maar toen ik zag dat je ook hier de map() functie kon gebruiken om de lampjes te laten dimmen, werd het wat duidelijker. Ik ben terug gaan kijken naar hoe ik de vorige opdracht heb ingevuld en heb dit vervolgens ook zo gedaan bij deze opdracht, waardoor het ging werken. Wanneer ik me vinger op de sensor deed ging het licht dimmen.</p>
+			</div>
+			<div id="opdracht8b">
+				<h3> Opdracht 8B </h3> 
+				<img id="code5" src="opdracht8b.png" alt="code van opdracht 8b"/>
+				<video id="video5" src="opdracht8b.mov" controls></video>
+				<p> Voor deze opdracht zal er gewerkt worden met de programma processing. Hierbij zal de Arduino bord gebruikt worden als invoerapparaat om verbinding te maken tussen de programma arduino en processing. Zo zal er bij deze opdracht de code uit arduino met behulp van de arduino bord naar een processing schets gaan. De opdracht was om de gegeven code aan te passen zodat de schets iets interessants wordt. Je hebt hierbij zowel code voor de arduino als voor processing gekregen. De arduino code zorgt ervoor dat wanneer de hoeveelheid licht die er op de sensor valt verandert, de schets ook veranderd. En met de processing code wordt er aangegeven hoe de schets veranderd. Dit is waar er voor deze opdracht aan gewerkt werd. Ik heb gekozen voor een vierkant die bij de vermindering van het licht kleiner wordt en naar boven beweegt. Wanneer er helemaal geen licht meer op schijnt wordt het in de omgekeerde richting groter en verdwijnt het uit het beeld. Dit wordt aangetoond in het filmpje. </p>
+			</div>
+			<div id="opdracht9f">
+				<h3> Opdracht 9F </h3> 
+				<img id="code6" src="opdracht9f.png" alt="code van opdracht 9f"/>
+				<video id="video6" src="opdracht9f.mov" controls></video>
+				<p> Bij deze opdracht zal er gebruik gemaakt worden van de sensor, button. Een knop functioneert door een circuit te sluiten en dit kan worden waargenomen door de Arduino. In deze opdracht zal er op verschillende manieren gebruik worden gemaakt van de knoppen. Bij opdracht F werden er twee knoppen gebruikt en was het de bedoeling dat bij het klikken op één van de knoppen de led lampjes allebei oplichten, maar op het moment dat allebei de knoppen ingedrukt worden, de lampjes niet oplichten. Ik vond deze opdracht wat moeilijker dan de vorige, omdat ik niet net zoals bij de andere opdrachten een voorbeeld had die me kon helpen. Ik wist namelijk niet precies hoe ik ervoor kon zorgen dat het lampje niet op zou lichten, maar na hulp gevraagd te hebben, werd het duidelijker. Het enige wat er anders moest om aan te geven dat de lampjes niet aan moesten was de !=-teken gebruiken om ervoor te zorgen dat de stroom daarniet naartoe gaat, waardoor de circuit niet volledig is en de lampjes niet gaan werken. </p>
+			</div>
+			<div id="opdracht10b">
+				<h3> Opdracht 10B </h3> 
+				<img id="code7" src="opdracht10b.png" alt="code van opdracht 10b"/>
+				<video id="video7" src="opdracht10b.mov" controls></video>
+				<p> Bij deze opdracht zal er een servomotor gebruikt worden. Servomotoren zijn motoren die in nauwkeurige posities draaien. Ze worden in verschillende situaties gebruikt, zoals in remote gecontroleerde voertuigen. De meeste servo’s kunnen niet volledig draaien. Ze kunnen ongeveer een 180 graden draai maken. In deze opdracht zal de servomotor een voorgeprogrammeerde beweging uitvoeren. De bedoeling is om de gegeven code aan te passen zodat de servo in een grappige, ritmische manier gaat bewegen. Dit was niet moeilijk, ik heb hier en daar eerst een aantal getallen veranderd om te kijken welke beweging wat  veroorzaakt en ben vervolgens een beetje gaan spelen om zo een ritmische beweging te creëren. Bekijk het filmpje om het resultaat te zien. </p>
+			</div>
+			<div id="opdracht11b">
+				<h3> Opdracht 11B </h3> 
+				<img id="code8" src="opdracht11b.png" alt="code van opdracht 11b"/>
+				<video id="video8" src="opdracht11b.mov" controls></video>
+				<p> Bij deze opdracht wordt er verder gewerkt met de servomotor. alleen wordt het dit keer verbonden met de knoppen uit opdracht 9. De bedoeling is om ervoor te zorgen dat met behulp van de knoppen de servomotor bestuurd kan worden. Eén knop zorgt ervoor dat de servomotor met de klok mee draait en de andere zorgt ervoor dat het juist tegen de klok in draait. Een startpunt voor de code was al gegeven. Hier moest alleen nog de code aan toegevoegd worden die zorgt dat de knoppen de motor besturen. Waar ik bij deze opdracht moeite mee had was dat ik niet helemaal wist hoe en met wat ik moest beginnen. Ik ben een aantal voorbeelden gaan opzoeken, die me hiermee geholpen hebben en toen ik eenmaal wist dat ik een while loop moest gebruiken kon ik makkelijk verder. </p>
+			</div>
+			<div id="opdracht12b">
+				<h3> Opdracht 12B </h3> 
+				<img id="code9" src="opdracht12b.png" alt="code van opdracht 12b"/>
+				<video id="video9" src="opdracht12b.mov" controls></video>
+				<p> Voor deze opdracht werd er gewerkt met een speaker. Wanneer je een speaker aansluit aan de arduino bord, kan het geluid gaan produceren. Deze speaker wordt ook wel een Piezo speaker genoemd, die bestaat uit een plaat van twee verschillende metalen die kunnen trillen waardoor ze dus instaat zijn geluid te produceren. Voor opdracht B was het de bedoeling om de code zo aan te passen, zodat de speaker een creatieve melodie speelt. Dit was erg makkelijk te doen met behulp van de aangeboden code en de diagram. In de diagram bevinden zich de noten met de bijbehorende frequenties die nodig zijn om de melodie te maken. Het enige wat ik verder gedaan heb is een beetje spelen met de frequenties en kijken welke noot welke toon maakt en vervolgens heb ik de volgorde aangepast. </p>
+			</div>
+			<div id="opdracht13e">
+				<h3> Opdracht 13E </h3> 
+				<img id="code10" src="opdracht13e1.png" alt="eerste deel van de code van opdracht 13e"/><br/>
+				<video id="video10" src="opdracht13e.mov" controls></video>
+				<img id="code11" src="opdracht13e2.png" a alt="tweede deel van de code van opdracht 13e"/><br/>
+				<img id="code12" src="opdracht13e3.png"  alt="derde deel van de code van opdracht 13e"/><br/>
+				<img id="code13" src="opdracht13e4.png"  alt="vierde deel van de code van opdracht 13e"/><br/>
+				<img id="code14" src="opdracht13e5.png"  alt="vijfde deel van de code van opdracht 13e"/><br/>
+				<img id="code15" src="opdracht13e6.png"  alt="zesde deel van de code van opdracht 13e"/><br/>
+				<p> Voor deze opdracht werd er gewerkt met een Accelerometer en een speaker. De bedoeling voor opdracht E was om een waterpas te maken met met de genoemde sensoren en de voorbeeld codes die in de programma arduino te vinden zijn. Zo moest er een piep afgaan wanneer de arduino bord, met de accelerometer, niet meer op 0 graden stond. Dit was een van de moeilijkste opdrachten uit de hele workshop. Ik heb deze een aantal keren opnieuw uit moeten voeren maar elke keer deed hij het niet. Stappen A t/m C gingen in een keer goed, maar vanaf stap D niet meer. Pas na de derde keer was het me wel gelukt en kreeg ik de 6 nummers die nodig waren om werkende code te krijgen. Maar toen kwam ik aan bij stap E waar het weer helemaal mis ging. Wat ik ook deed, de meter ging niet piepen. Ik ben ben vervolgens maar hulp gaan vragen en het bleek dus dat er geen code was die aangaf dat wanneer de graden van de meter verandert, er een piep te horen moest zijn. Er was zoveel code aanwezig in het bestand, dat ik  in de war raakte en ik niet doorhad dat er nog code misten.  </p>
+			</div>
+		</section>
+	</body>
+</html>
